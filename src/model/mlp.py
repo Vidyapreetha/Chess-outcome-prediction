@@ -12,8 +12,6 @@
    sys.path.extend(['.', '..'])
    import build_dataset
 
-
-    DEFAULT_MODEL_DIR = '/tmp/mnist_convnet_model'
     # For logging and summaries.
     LOG_EVERY_N_ITER = 50
     DEFAULT_BATCH_SIZE = 100
